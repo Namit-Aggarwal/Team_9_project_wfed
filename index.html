@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study Spaces by Enneagram Type</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Find Your Best Study Space</h1>
+      <p>
+        Take the Enneagram test first, then explore Penn State study spaces
+        that may match your personality type and study preferences.
+      </p>
+      <a
+        class="test-button"
+        href="https://enneagram-personality.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Take the Enneagram Test
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="filter-section">
+      <h2>Browse by Enneagram Type</h2>
+      <p>Select a type to view matching study spaces.</p>
+
+      <select id="enneagramFilter">
+        <option value="all">All Types</option>
+        <option value="1">Type 1</option>
+        <option value="2">Type 2</option>
+        <option value="3">Type 3</option>
+        <option value="4">Type 4</option>
+        <option value="5">Type 5</option>
+        <option value="6">Type 6</option>
+        <option value="7">Type 7</option>
+        <option value="8">Type 8</option>
+        <option value="9">Type 9</option>
+      </select>
+    </section>
+
+    <section class="locations-section">
+      <h2>Study Locations</h2>
+      <div class="locations-grid" id="locationsGrid"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
